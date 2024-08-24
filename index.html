@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My JavaScript</title>
+    <style>
+        body{
+              background-color: darkseagreen;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: left;
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            font: bold;
+        }
+        table, td, th{
+            border: 1px solid Black;
+        }
+        table{
+            text-align: center;
+        }
+        button{
+            border: 1px Solid black;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Developer Info</h1>
+    <div>
+        <h2>Web Site Developers</h2>
+        <p id="name">Anas Ali</p>
+            <button type="button" onclick='document.getElementById("name").innerHTML="  <table><thead><tr><th>Name</th><th>Qualification</th><th>Field and Experience</th></tr></thead><tbody><tr><td>Anas Ali</td><td>Inter</td><td>Web And Fresher</td></tr></tbody></table>"'>Click To More Info </button>
+    </div>
+    <div>
+        <h2>Front End Developer</h2>
+        <p id="demo">Qaiser Ali</p>
+        <button type="button" onclick='document.getElementById("demo").innerHTML="<table><thead><tr><th>Name</th><th>Qualification</th><th>Field and Experience</th></tr></thead><tbody><tr><td>Qaiser Ali</td><td>Bachelor</td><td>Front End and 5Y</td></tr></tbody></table>"'> Click To More Info</button>
+    </div>
+    <div>
+        <h2>BAck End Developer </h2>
+        <p id="farhan">Farhan Ali</p>
+        <button type="button" onclick='document.getElementById("farhan").innerHTML="<table><thead><tr><th>Name</th><th>Qualification</th><th>Field and Experience</th></tr></thead><tbody><tr><td>Farhan Ali</td><td>Matric</td><td>Front End and 2Y</td></tr></tbody></table>"'>Clcik To More Info</button>
+    </div>
+</body>
+</html>
